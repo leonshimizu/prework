@@ -1,0 +1,44 @@
+<h1>
+    Bitcoin: A Peer-to-Peer Electronic Cash System
+    </h1>
+    
+    <h2>
+    1. Introduction
+    </h2>
+    
+    <p>
+    content
+    content
+    content
+    </p>
+    
+    <ol>
+    <li>Step 1</li>
+    <li>Step 2</li>
+    <li>Step 3</li>
+    </ol>
+    
+    <code>puts "Enter any 10 numbers and I'll sort through them:"
+    numbers = []
+    
+    10.times do
+        number = gets.chomp.to_i
+        numbers << number
+    end
+    
+    swapped = true
+    while swapped 
+        swapped = false
+        index = 0
+        (numbers.length - 1).times do
+            if numbers[index] > numbers[index + 1]
+                temp = numbers[index]
+                numbers[index] = numbers[index + 1]
+                numbers[index + 1] = temp
+                swapped = true
+            end
+            index += 1
+        end
+    end
+    
+    p numbers</code>

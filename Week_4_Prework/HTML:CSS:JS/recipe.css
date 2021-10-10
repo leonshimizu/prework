@@ -1,0 +1,57 @@
+h1 {
+    font-family: Helvetica;
+}
+
+body {
+    background-color: bisque;
+}
+
+h2.subtitle {
+    font-variant: small-caps;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h2#ingredients {
+    color: gray;
+}
+
+h2#steps {
+    color: darkgray;
+}
+
+ul li.food {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: circle;
+}
+
+ul li.links {
+    list-style-type: square;
+}
+
+img#img1 {
+    width: 10%;
+    height: auto;
+}
+
+img#img2 {
+    width: 10%;
+    height: auto;
+}
+
+img#img3 {
+    width: 10%;
+    height: auto;
+}
+
+ol li {
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: upper-roman
+}
+
+h3#other {
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
